@@ -1,0 +1,14 @@
+{
+  "imports": [
+    {
+      "name": "google-cloud-developer",
+      "source": "antigravity",
+      "importedAt": "2026-11-16T14:19:41Z",
+      "components": [
+        "skills",
+        "rules",
+        "mcpServers"
+      ]
+    }
+  ]
+}

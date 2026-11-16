@@ -1,0 +1,12 @@
+{
+  "google-cloud-developer": {
+    "overrides": [
+      "/home/student_03_3067cc4ad384/*"
+    ]
+  },
+  "vertex": {
+    "overrides": [
+      "/home/student_03_3067cc4ad384/*"
+    ]
+  }
+}
