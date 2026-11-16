@@ -113,3 +113,13 @@ EOF
 gcloud storage cp *.tf start-up.sh gs://qwiklabs-gcp-04-78814cacf3af-infra-source/
 # 4. Relanzar el despliegue en Infrastructure Manager
 gcloud infra-manager deployments apply lab-deployment   --project=qwiklabs-gcp-04-78814cacf3af   --location=us-east1   --gcs-source=gs://qwiklabs-gcp-04-78814cacf3af-infra-source   --service-account=projects/qwiklabs-gcp-04-78814cacf3af/serviceAccounts/817174628708-compute@developer.gserviceaccount.com   --input-values="project=qwiklabs-gcp-04-78814cacf3af,network_prefix=cepf-infra-lb,group1_region=us-east1"
+git config --global user.name "Angelesstop"
+git config --global user.email “angeles.silvahdz@gmail.com”
+rm -rf .terraform/
+echo ".terraform/" > .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/Angelesstop/gcp-terraform-lab.git
+git push -u origin main
